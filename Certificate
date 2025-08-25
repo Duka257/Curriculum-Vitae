@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Certificates</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      max-width: 800px;
+      background: #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background: #111827;
+      color: #fff;
+    }
+    tr:hover {
+      background: #f1f5f9;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Certificate Name</th>
+        <th>Issuer</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Web Design Foundations</td>
+        <td>Coursera</td>
+        <td>2024-05-12</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>UX/UI Essentials</td>
+        <td>Interaction Design Foundation</td>
+        <td>2024-08-02</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>JavaScript Algorithms</td>
+        <td>freeCodeCamp</td>
+        <td>2024-10-20</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>WordPress Developer</td>
+        <td>Udemy</td>
+        <td>2025-01-07</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
 
